@@ -1,0 +1,14 @@
+Django==5.2.17
+djangorestframework==3.18.1
+
+torch==2.14.1
+torchvision==0.29.1
+
+numpy==2.2.6
+opencv-python==5.0.0.93
+Pillow
+pydicom==3.0.2
+
+transformers
+timm
+scipy

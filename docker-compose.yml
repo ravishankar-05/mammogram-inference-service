@@ -1,0 +1,13 @@
+services:
+  inference-service:
+    build: .
+    container_name: mammogram-inference-service
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      MMBCD_ROOT: /models/MMBCD-main
+
+    volumes:
+      - "C:/Users/ravis/Desktop/MMBCD-main:/models/MMBCD-main:ro"
